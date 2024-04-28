@@ -1,0 +1,1 @@
+[riscv指南，其中特权机制很nice](https://five-embeddev.com/riscv-priv-isa-manual/Priv-v1.12/supervisor.html)
