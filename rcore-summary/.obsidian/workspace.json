@@ -138,7 +138,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -156,23 +157,22 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f49b1279659adbed",
+  "active": "80cc1c84c4772572",
   "lastOpenFiles": [
-    "zz-images/Pasted image 20240503230707.png",
+    "risc-V.md",
     "summary.md",
+    "zz-images/Pasted image 20240501232007.png",
+    "zz-images/Pasted image 20240501232542.png",
+    "zz-images/Pasted image 20240501234747.png",
+    "zz-images/Pasted image 20240503230707.png",
     "zz-images/未命名思维导图.md",
     "未命名.md",
-    "risc-V.md",
-    "zz-images/Pasted image 20240501234747.png",
-    "zz-images/Pasted image 20240501232542.png",
     "zz-images/Pasted image 20240501232041.png",
-    "zz-images/Pasted image 20240501232007.png",
     "zz-images/Pasted image 20240501231909.png",
     "zz-images/Pasted image 20240501230350.png",
     "zz-images/Pasted image 20240501230358.png",
     "zz-images/Pasted image 20240501230320.png",
     "zz-images/Pasted image 20240501225410.png",
-    "zz-images/Pasted image 20240501225043.png",
     "ch2-summary.md",
     "zz-images",
     "未命名思维导图 1.md",

@@ -54,7 +54,7 @@ mindmap-plugin: basic
 		+ 遇到异常(触发trap)的时候，会执行stvec寄存器处指定的trap处理代码的入口地址
 			+ [运行前需要保存上下文, 运行后恢复上下文](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter2/4trap-handling.html#id8)
 				+ 涉及到[内核栈和用户栈的设置](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter2/4trap-handling.html#id7)
-					+ ch1中分配那部分栈空间，在第一次执行`__restore`之后就不会再用到了，之后sp只在rust程序中新设置的`KernelStack`和`UserStack`中切换
+					+ 注：ch1中分配那部分栈空间，在第一次执行`__restore`之后就不会再用到了，之后sp只在rust程序中新设置的`KernelStack`和`UserStack`中切换
 		+ 利用[恢复上下文的过程从内核态转到用户态](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter2/4trap-handling.html#ch2-app-execution)(执行下一个用户程序)
 			+ 刚开始执行`rust_main`的时候处于内核态 (原理见上方qemu的启动流程)，当第一次执行`__restore`的时候转入用户态
 	+ [系统调用](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter2/4trap-handling.html#id10)
@@ -74,6 +74,15 @@ mindmap-plugin: basic
 		+ 为了减少切换app的代价，可以事先把所有app加载到内存中。
 + [加载所有的app](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter3/1multi-loader.html)
 	+ 注：目前应用程序的编址方式是基于绝对位置的，并没做到与位置无关，内核也没有提供相应的地址重定位机制。
++ [协作式多任务的实现](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter3/3multiprogramming.html)u
+	+ [状态的保存](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter3/3multiprogramming.html#id5)
+	+ 涉及到task切换的场景
+		+ 刚启动时
+			+ 疑问：S态何时转为U态的
+				+ 它是一开始加载成内核态
+		+ 运行过程中
+		+ 疑问：
+			+ 具体的切换流程，trap和task之间的切换
 
 
 
