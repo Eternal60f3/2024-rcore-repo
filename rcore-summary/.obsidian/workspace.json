@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "51ce27a21799523f",
+        "id": "7e0e0a411e718906",
         "type": "tabs",
         "children": [
           {
-            "id": "f49b1279659adbed",
+            "id": "3488e612ca0a063f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5991c0e84b6a8f81",
@@ -157,25 +156,37 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "80cc1c84c4772572",
+  "active": "3488e612ca0a063f",
   "lastOpenFiles": [
-    "risc-V.md",
+    "vim在vscode的使用.md",
+    "未来学习的方向.md",
+    "这段时间训练的总结.md",
+    "未命名思维导图 1.md",
+    "未命名思维导图.md",
+    "cargo项目管理的学习.md",
+    "hypervisor 的学习.md",
+    "zz-images/Pasted image 20240519131518.png",
     "summary.md",
+    "zz-README.md",
+    "ch6 添加了文件系统.md",
+    "ch5 加入了进程级抽象.md",
+    "ch3 提高cpu利用率，并且支持同时存在多个用户的操作系统.md",
+    "ch4 加入了内存空间的操作.md",
+    "zz-images/Pasted image 20240506001839.png",
+    "四月总结.md",
+    "zz-images/Pasted image 20240509122307.png",
+    "zz-images/Pasted image 20240505225310.png",
+    "[Fetching.md",
+    "risc-V.md",
     "zz-images/Pasted image 20240501232007.png",
     "zz-images/Pasted image 20240501232542.png",
     "zz-images/Pasted image 20240501234747.png",
     "zz-images/Pasted image 20240503230707.png",
     "zz-images/未命名思维导图.md",
-    "未命名.md",
     "zz-images/Pasted image 20240501232041.png",
     "zz-images/Pasted image 20240501231909.png",
-    "zz-images/Pasted image 20240501230350.png",
-    "zz-images/Pasted image 20240501230358.png",
-    "zz-images/Pasted image 20240501230320.png",
-    "zz-images/Pasted image 20240501225410.png",
     "ch2-summary.md",
     "zz-images",
-    "未命名思维导图 1.md",
     "Excalidraw/Drawing 2024-05-01 22.16.05.excalidraw.md",
     "Excalidraw"
   ]
